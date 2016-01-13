@@ -3,6 +3,8 @@
 
 // module React
 
+var React = require('react');
+
 exports.getProps = function(ctx) {
     return function() {
         return ctx.props;
